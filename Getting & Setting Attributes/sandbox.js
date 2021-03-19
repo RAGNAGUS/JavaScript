@@ -9,4 +9,4 @@ const mssg = document.querySelector('p');
 
 console.log(mssg.getAttribute('class'));
 mssg.setAttribute('class', 'success');
-mssg.setAttribute('style', 'color:green');
+mssg.setAttribute('style', 'color: green');
