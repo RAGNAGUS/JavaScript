@@ -1,13 +1,13 @@
 // get an elements by ID
-const title = document.getElementById("page-title");
+const title = document.getElementById('page-title');
 console.log(title);
 
 // get Elements by their class name
-const errors = document.getElementsByClassName("error");
+const errors = document.getElementsByClassName('error');
 console.log(errors);
 console.log(errors[0]);
 
 // get elements by their tag name
-const paras = document.getElementsByTagName("p");
+const paras = document.getElementsByTagName('p');
 console.log(paras);
 console.log(paras[0]);
