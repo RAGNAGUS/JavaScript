@@ -1,14 +1,14 @@
 // string
-console.log("Hello, World");
+console.log('Hello, World');
 
-let email = "casnova152@gmail.com"
+let email = 'casnova152@gmail.com'
 console.log(email);
 
 // string concatenation
-let firstName = "Kongsittha";
-let lastName = "Nimking";
+let firstName = 'Kongsittha';
+let lastName = 'Nimking';
 
-let fullName = firstName + " " + lastName;
+let fullName = firstName + ' ' + lastName;
 console.log(fullName);
 
 // getting chatacters
@@ -23,5 +23,5 @@ console.log(fullName.toUpperCase());
 let result = fullName.toLocaleLowerCase();
 console.log(result, fullName);
 
-let index = email.indexOf("@"); //หาตำแหน่งของ @ ใน index
+let index = email.indexOf('@'); //หาตำแหน่งของ @ ใน index
 console.log(index);

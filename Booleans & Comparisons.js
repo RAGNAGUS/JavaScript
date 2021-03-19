@@ -1,12 +1,12 @@
 // booleans & comparisons
-console.log(true, false, "true", "false");
+console.log(true, false, 'true', 'false');
 
 // methods can return booleans
-let email = "casnova152@gmail.com";
-let names = ["Mario", "Luigi", "Toad"]
+let email = 'casnova152@gmail.com';
+let names = ['Mario', 'Luigi', 'Toad']
 
-let result = email.includes("gmail");
-let result = names.includes("Mario");
+let result = email.includes('gmail');
+let result = names.includes('Mario');
 
 console.log(result);
 
@@ -20,10 +20,10 @@ console.log(age < 20); // return False
 console.log(age >= 25); // return True
 console.log(age <= 25); // return True
 
-let name = "Shaun";
+let name = 'Shaun';
 
-console.log(name == "Shaun"); // return True
-console.log(name == "shaun"); // return False
-console.log(name > "Crystal"); // return True Because S greater than C
-console.log(name < "shaun"); // return True Because s greater than S
-console.log(name > "Crystalhaun"); // return True Because S greater than C
+console.log(name == 'Shaun'); // return True
+console.log(name == 'shaun'); // return False
+console.log(name > 'Crystal'); // return True Because S greater than C
+console.log(name < 'shaun'); // return True Because s greater than S
+console.log(name > 'Crystalhaun'); // return True Because S greater than C

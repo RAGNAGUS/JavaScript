@@ -31,9 +31,9 @@ likes /= 2;
 console.log(likes);
 
 // NaN - not a number
-console.log(5 / "Hello");
-console.log(5 * "Hello")
+console.log(5 / 'Hello');
+console.log(5 * 'Hello')
 
 // concatenate number
-let result = "The blog has " + likes + " likes ";
+let result = 'The blog has ' + likes + ' likes ';
 console.log(result);
