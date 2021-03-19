@@ -1,6 +1,6 @@
 // arguments & parameters
 
-// const speak = function(name = "Luigi", time = "night") {
+// const speak = function(name = 'Luigi', time = 'night') {
 //     console.log(`good ${time} ${name}`);
 // };
 

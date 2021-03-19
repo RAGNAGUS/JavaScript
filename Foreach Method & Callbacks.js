@@ -11,7 +11,7 @@ myFunc(value => {
     console.log(value)
 });
 
-let people = ["Mario", "Luigi", "Ryu", "Shaun", "Chun-Li", ];
+let people = ['Mario', 'Luigi', 'Ryu', 'Shaun', 'Chun-Li', ];
 
 
 // forEach function

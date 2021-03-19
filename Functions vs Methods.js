@@ -1,7 +1,7 @@
-const user = "Shaun";
+const user = 'Shaun';
 
 // functions
-const greet = () => "hello";
+const greet = () => 'hello';
 
 let resultOne = greet();
 console.log(resultOne);

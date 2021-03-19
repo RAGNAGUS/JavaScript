@@ -15,14 +15,14 @@ const calcSquare = (width, height) => {
 };
 
 const area = calcArea(5);
-console.log("area is: ", area);
+console.log('area is: ', area);
 
 const card = calcSquare(10, 30);
-console.log("area of card is: ", card);
+console.log('area of card is: ', card);
 
 
 // hello world function with arrow
-const greet = () => "hello, world";
+const greet = () => 'hello, world';
 
 // bill calculator function with arrow
 const bill = (products, tax) => {
