@@ -1,1 +1,1 @@
-# JavaScript
+# The Document Object Model
