@@ -11,12 +11,12 @@ console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scorreTwo}`);
 
 // refference value
 
-const userOne = { name: "Ryu", age: 30 }
+const userOne = { name: 'Ryu', age: 30 }
 const userTwo = userOne;
 
 console.log(userOne, userTwo);
 
-userOne.name = "Mario";
+userOne.name = 'Mario';
 userTwo.age = 35;
 
 console.log(userOne, userTwo);
