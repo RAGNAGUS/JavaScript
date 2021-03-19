@@ -23,5 +23,5 @@ console.log(fullName.toUpperCase());
 let result = fullName.toLocaleLowerCase();
 console.log(result, fullName);
 
-let index = email.indexOf("@");
+let index = email.indexOf("@"); //หาตำแหน่งของ @ ใน index
 console.log(index);
