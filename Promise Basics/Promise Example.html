@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const weather = true;
+        const date = new Promise((resolve, reject) => {
+            if (weather) {
+                const dateDetails = {
+                    name: 'Kongsittha Nimking',
+                    location: 'Thailand',
+                }
+                resolve(dateDetails);
+            } else {
+                reject((new Error('Bad weather, can not go to dinner.')))
+            }
+        })
+
+        const oderUber = (dateDetails) => {
+            const message = `Get me an Uber ASAP to ${dateDetails.location}, we are going to a dinner.`
+            return Promise.resolve(message);
+        }
+
+        const myDate = () => {
+            date
+                .then(oderUber)
+                .then((done) => {
+                    console.log('We are going on a dinner.')
+                    console.log(done);
+                })
+                .catch((err) => {
+                    console.log(err.message);
+                })
+        }
+
+        myDate();
+    </script>
+</body>
+
+</html>
