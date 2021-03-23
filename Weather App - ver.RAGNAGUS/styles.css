@@ -1,0 +1,22 @@
+body {
+    background: #B2DFDB;
+}
+
+.container {
+    width: 600px;
+}
+
+.city-data {
+    width: 500px;
+    margin-left: 7%;
+}
+
+.weather-icon {
+    position: relative;
+    border-radius: 50%;
+    width: 100px;
+    margin-left: 41%;
+    background: #FAFAFA;
+    margin-top: -65px;
+    margin-bottom: px;
+}
