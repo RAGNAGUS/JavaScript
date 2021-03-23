@@ -1,1 +1,1 @@
-# JavaScript
+# Local Storage
