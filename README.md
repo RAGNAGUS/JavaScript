@@ -1,1 +1,1 @@
-# JavaScript
+# Object Oriented JavaScript
