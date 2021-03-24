@@ -1,1 +1,1 @@
-# JavaScript
+# More ES6 Features
